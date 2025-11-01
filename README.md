@@ -86,28 +86,6 @@ This is a full-stack **AI SaaS web application** built using the **MERN stack** 
 5. **Environment Variables Setup**
    Create a .env file in the root directory of the backend with the following:
    ```bash
-   MONGODB_URI = your_mongo_database_uri
-   JWT_SECRET = your_jwt_secret_key
-   CLOUDINARY_NAME=  your_cloudinary_cloud_name
-   CLOUDINARY_API_KEY = your_cloudinary_api_key
-   CLOUDINARY_SECRET_KEY = your_cloudinary_api_secret
-   ADMIN_EMAIL = admin_email_id
-   ADMIN_PASSWORD = admin_password
-   RAZORPAY_KEY_SECRET = your_razorpay_secret_key
-   RAZORPAY_KEY_ID = your_razorpay_key_id
-   CURRENCY = your_currency
-   ```
-
-6. **Environment Variables Setup**
-   Create a .env file in the root directory of the frontend with the following:
-   ```bash
-   VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-   VITE_BACKEND_URL=http://localhost:3000
-   ```
-   
-7. **Environment Variables Setup**
-   Create a .env file in the root directory of the admin panel with the following:
-   ```bash
    DATABASE_URL=your_postgresql_connection_url
    CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
    CLERK_SECRET_KEY=your_clerk_secret_key
@@ -117,6 +95,14 @@ This is a full-stack **AI SaaS web application** built using the **MERN stack** 
    CLOUDINARY_API_KEY=your_cloudinary_api_key
    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
    ```
+
+6. **Environment Variables Setup**
+   Create a .env file in the root directory of the frontend with the following:
+   ```bash
+   VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+   VITE_BACKEND_URL=http://localhost:3000
+   ```
+   
    
 ### Running the Application
 
